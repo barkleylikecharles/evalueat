@@ -124,20 +124,17 @@
     
   }
 
-  #login-btn, #signup-btn{
+  .login-btn, .signup-btn{
+    width: 100%;
     background: -webkit-linear-gradient(#fae1dd , #fec5bb );
+    border: solid 2px #fec5bb ;
+    padding: 5% 5% 5%; 
     color: white;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
-    align-items: center;
-    width: 100%;
-    padding-top: 2%;
-    margin-top: 1.5%;
-    padding-bottom: 2%;
-    font-size: 3.00vh;
-    border-radius: 5%;
+   align-items: center;
   }
 
   textarea {
