@@ -89,6 +89,7 @@
   }
 
   .form-container{
+
     padding-top: 20%;
     display: flex;
     justify-content: space-evenly;
@@ -96,14 +97,14 @@
     flex-direction: column;
   }
   .login-form, .signup-form{
-    
+
     margin-bottom: 10%;
     margin-top: 5%;
   }
 
   form {
-    width: 50%;
-    height: 50%;
+    /* width: 30%; */
+    /* height: 80%; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
     display: flex;
@@ -115,7 +116,7 @@
   }
 
   #username-login, #password-login, #username-signup, #email-signup, #password-signup{
-
+    font-size: 2vh;
     border-top: none;
     border-left: none;
     border-right: none;
