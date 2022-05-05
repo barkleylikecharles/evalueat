@@ -101,11 +101,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 5% 5% 10% 5%;
     border-radius: 5%;
-  }
-
-  form {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -113,6 +108,7 @@
     /* border: 2px solid lightgrey; */
     padding: 45px 10px 25px;
   }
+ 
 
   #username-login, #password-login, #username-signup, #email-signup, #password-signup{
     font-size: 3vh;
@@ -303,7 +299,7 @@ input[type="file"] {
   display: none;
 }
   
-  .comment-form {
+  .comment-body {
     margin-bottom: 5%;
   }
   
@@ -315,6 +311,7 @@ input[type="file"] {
   .comment:nth-child(odd) {
     /* background-color: #fcd5ce; */
     border-top: 1.5px solid lightgray;
+    border-bottom: 1.5px solid lightgray;
   }
   
   .comment .meta {
