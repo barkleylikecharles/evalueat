@@ -89,22 +89,20 @@
   }
 
   .form-container{
-
-    padding-top: 20%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
   }
   .login-form, .signup-form{
-
     margin-bottom: 10%;
     margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5% 5% 10% 5%;
+    border-radius: 5%;
   }
 
   form {
-    /* width: 30%; */
-    /* height: 80%; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
     display: flex;
@@ -124,6 +122,22 @@
     outline: none;
     font-family: 'Roboto', sans-serif;
     
+  }
+
+  #login-btn, #signup-btn{
+    background: -webkit-linear-gradient(#fae1dd , #fec5bb );
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    width: 100%;
+    padding-top: 2%;
+    margin-top: 1.5%;
+    padding-bottom: 2%;
+    font-size: 3.00vh;
+    border-radius: 5%;
   }
 
   textarea {
@@ -386,4 +400,7 @@ input[type="file"] {
    .post-username {
      color: lightseagreen;
    }
+   .login-form, .signup-form{
+    width: 100%;
+  }
   }
