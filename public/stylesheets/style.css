@@ -57,6 +57,7 @@
     cursor: pointer;
     border-radius: 5px;
    align-items: center;
+
   }
   #logout{
     background: var(--primary-color);
@@ -114,27 +115,45 @@
   }
 
   #username-login, #password-login, #username-signup, #email-signup, #password-signup{
-    font-size: 2vh;
+    font-size: 3vh;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: lightgrey solid 2px;
     outline: none;
     font-family: 'Roboto', sans-serif;
-    
+    width: 100%;
   }
 
-  .login-btn, .signup-btn{
+  
+  #login-btn, #signup-btn{
     width: 100%;
     background: -webkit-linear-gradient(#fae1dd , #fec5bb );
     border: solid 2px #fec5bb ;
-    padding: 5% 5% 5%; 
+    padding: 2%; 
     color: white;
+    font-size: 3.00vh;
     font-weight: bold;
-    transition: background-color .1s;
+    transition: background-color .2s;
     cursor: pointer;
     border-radius: 5px;
    align-items: center;
+    margin-top: 5%;
+  }
+
+  #login-btn{
+    width: 100%;
+    background: -webkit-linear-gradient(#fae1dd , #fec5bb );
+    border: solid 2px #fec5bb ;
+    padding: 2%; 
+    color: white;
+    font-size: 3.00vh;
+    font-weight: bold;
+    transition: background-color .2s;
+    cursor: pointer;
+    border-radius: 5px;
+   align-items: center;
+    margin-top: 5%;
   }
 
   textarea {
@@ -148,6 +167,7 @@
   
   form > div {
     margin-bottom: 2%;
+    width: 100%;
   }
   
   form label {
@@ -293,7 +313,8 @@ input[type="file"] {
   }
   
   .comment:nth-child(odd) {
-    background-color: #fcd5ce;
+    /* background-color: #fcd5ce; */
+    border-top: 1.5px solid lightgray;
   }
   
   .comment .meta {
@@ -328,8 +349,19 @@ input[type="file"] {
     padding-top: 5%;
     border-spacing: 3px;
     border-image: linear-gradient(to right, #caf0f8, #fec5bb) 1;
-    
   }
+
+ #create-account{
+  font-family:'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 4.00vh;
+}
+
+#login-text{
+  font-family:'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 4.00vh;
+}
   
   #urlbox{
     margin-bottom: 1%;
@@ -399,5 +431,8 @@ input[type="file"] {
    }
    .login-form, .signup-form{
     width: 100%;
+  }
+  p{
+    font-size: 4.00vh;
   }
   }
