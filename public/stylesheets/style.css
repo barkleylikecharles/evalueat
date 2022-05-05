@@ -47,15 +47,17 @@
   .btn {
     background: -webkit-linear-gradient(#fae1dd , #fec5bb );
     border: 0;
-    padding: .5%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 1%; 
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
     color: white;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
    align-items: center;
+
   }
   #logout{
     background: var(--primary-color);
@@ -86,14 +88,72 @@
     border: 2px solid #3486eb;
     
   }
-  #email-login, #password-login, #username-signup, #email-signup, #password-signup{
+
+  .form-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .login-form, .signup-form{
+    margin-bottom: 10%;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5% 5% 10% 5%;
+    border-radius: 5%;
+  }
+
+  form {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid lightgrey; */
+    padding: 45px 10px 25px;
+  }
+
+  #username-login, #password-login, #username-signup, #email-signup, #password-signup{
+    font-size: 3vh;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: lightgrey solid 2px;
     outline: none;
     font-family: 'Roboto', sans-serif;
-    
+    width: 100%;
+  }
+
+  
+  #login-btn, #signup-btn{
+    width: 100%;
+    background: -webkit-linear-gradient(#fae1dd , #fec5bb );
+    border: solid 2px #fec5bb ;
+    padding: 2%; 
+    color: white;
+    font-size: 3.00vh;
+    font-weight: bold;
+    transition: background-color .2s;
+    cursor: pointer;
+    border-radius: 5px;
+   align-items: center;
+    margin-top: 5%;
+  }
+
+  #login-btn{
+    width: 100%;
+    background: -webkit-linear-gradient(#fae1dd , #fec5bb );
+    border: solid 2px #fec5bb ;
+    padding: 2%; 
+    color: white;
+    font-size: 3.00vh;
+    font-weight: bold;
+    transition: background-color .2s;
+    cursor: pointer;
+    border-radius: 5px;
+   align-items: center;
+    margin-top: 5%;
   }
 
   textarea {
@@ -107,6 +167,7 @@
   
   form > div {
     margin-bottom: 2%;
+    width: 100%;
   }
   
   form label {
@@ -252,7 +313,8 @@ input[type="file"] {
   }
   
   .comment:nth-child(odd) {
-    background-color: #fcd5ce;
+    /* background-color: #fcd5ce; */
+    border-top: 1.5px solid lightgray;
   }
   
   .comment .meta {
@@ -287,18 +349,20 @@ input[type="file"] {
     padding-top: 5%;
     border-spacing: 3px;
     border-image: linear-gradient(to right, #caf0f8, #fec5bb) 1;
-    
   }
-  .form-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-  .login-form{
-    margin-bottom: 10%;
-    margin-top: 5%;
-  }
+
+ #create-account{
+  font-family:'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 4.00vh;
+}
+
+#login-text{
+  font-family:'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 4.00vh;
+}
+  
   #urlbox{
     margin-bottom: 1%;
   }
@@ -365,4 +429,11 @@ input[type="file"] {
    .post-username {
      color: lightseagreen;
    }
+   .login-form, .signup-form{
+    width: 100%;
+  }
+  p{
+    font-size: 4.00vh;
+    text-align: center;
+  }
   }
