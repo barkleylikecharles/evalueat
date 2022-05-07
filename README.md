@@ -25,7 +25,7 @@ At the end we were able to deliver a great functioning MVP.  However it was not 
 Finally, there are a few things we would like to implement in the future.  Some additional functionalities like a post filters, a (:heart:) button, and user image uploading capabilities!
 
 ## 💻 Installation
-If the user wants to clone this repo, User must do a npm i to iniitiate all packages 
+If the user wants to clone this repo, User must do a npm i to initiate all packages 
 ## Usage
 You are able to use on a personal computer or mobile phone
 
