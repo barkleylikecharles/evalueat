@@ -1,28 +1,29 @@
 # WearShare
 
 ## Description 
+Welcome to WARE SHARE! A clothing blog where individuals can gather together to share their opinions, their thoughts, likes, dislikes on any recently purchased threads!  Our motivation you ask ??? Good question, we wanted to create a honest social platform for people to use (with zero paid sponsorships or reviews) to let each other know whether a piece of clothing is worth or NOT worth purchasing.  
 
+We strived to make the site not only useful, but super fun and interactive by allowing people to leave comments.  We made sure it was mobile responsive, because we understand that most of us operate from our cell phones. The color scheme and design is clean and sleek.  It was important for the posts to stand out and speak for themselves.  
 
+At the end we were able to deliver a great functioning MVP.  However it was not done without a bit of struggle.  We experienced some small issues with coordinating schedules and distributing tasks.  But the biggest issue of them all was being unable to make the node.js dependency Multer work.  You will see that our github name is called EvaluEat, not Ware Share.  We originally had a project with the concept of a food blog.  We were unable to make Multer work, initially.  So we scrapped the idea and came up with a different concept that did not require photo data uploading.  At the end we were very lucky to have two very strong natural coders in our group that helped the other slightly behind but very devoted teammates.  With their help we were able to get things turned around rather quickly!
 
+Finally, there are a few things we would like to implement in the future.  Some additional functionalities like a post filters, a (❤️) button, and user image uploading capabilities!
 
 
 ## Installation
 
-No installation needed, simply clink on the link for our website and enjoy!
-(insert website once live link is done)
+No installation needed
 
 ## Usage 
 
-You are able to use on desktop or mobile site, to search 
+You are able to use on a personal computer or mobile phone
 
 
 
 
 ## Credits
 
-<a href="https://github.com/barkleylikecharles/evalueat/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=barkleylikecharles/evalueat" />
-</a>
+![GitHub Contributors Image](https://contrib.rocks/image?repo=barkleylikecharles/evalueat)
 
 * Nicole B - https://github.com/barkleylikecharles
 * Paul K - https://github.com/paulkalait
@@ -47,23 +48,33 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Badges
 
+![Jest](https://img.shields.io/badge/Jest-C21325?style=plastic&logo=jest&logoColor=white)
+![NPM](https://img.shields.io/badge/npm-CB3837?style=plastic&logo=npm&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node-6DA55F?style=plastic&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=plastic&logo=mysql&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=plastic&logo=heroku&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7.svg?style=plastic&logo=Sequelize&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=plastic&logo=markdown&logoColor=white)
+![Handlebars](https://img.shields.io/badge/Handlebars.js-f0772b?style=plastic&logo=handlebarsdotjs&logoColor=black)
 
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=blue)
+
 
 
 
 
 ## Languages Used
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=barkleylikecharles&theme=blue-green)
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=barkleylikecharles&layout=compact&s_count=8)](https://github.com/barkleylikecharles/github-evalueat)
 
 ## Website
 
 https://github.com/barkleylikecharles/evalueat
 
+https://wear-share.herokuapp.com/
+
 ## Screenshot
-![Capture30]
+![Capture30](./public/images/wearshare.png)
 
 ## Contributions
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
