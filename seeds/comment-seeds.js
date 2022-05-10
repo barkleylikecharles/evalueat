@@ -51,6 +51,7 @@ const commentdata = [
     user_id: 6,
     post_id: 3
   },
+  
   {
     comment_text: 'This looks great!',
     user_id: 3,
